@@ -1,0 +1,99 @@
+body, html {
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    /* width: 100%; */
+}
+* {
+    box-sizing: border-box;
+}
+.bg{
+    height:100% ; 
+    background-repeat:no-repeat; background-size: cover;  
+    width: 100%; 
+    backface-visibility: visible;
+    background-attachment: fixed;
+   object-fit: cover;
+    
+}
+.navbar{
+    width:100%;
+    position: fixed;
+    z-index: 100;
+}
+.arrrival_section{
+    z-index:100;
+}
+.my_image{
+    height:200px;
+    width:auto;
+    border-radius: 50%;
+}
+.text-serif {
+    font-family: "Playfair Display",serif !important;
+}
+.font-weight-bold-700{
+    font-weight: 700 !important;
+    color:black;
+}
+.font-weight-bold-600{
+    font-weight:300 !important;
+    color:rgb(5, 5, 5);
+    font-size: 60px
+}
+.landing_section{
+    margin-top: 0;
+    padding-top: 0;
+}
+.navbar_section{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.image_item_wrapper{
+    width: 100%;
+    /* object-fit: cover; */
+    height: auto;
+}
+.item_image{
+    height:200px;
+    width:100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.code_stack_heading .about_heading{
+    padding-bottom: 20px;
+    font-weight:300 !important;
+    color: black;
+}
+
+/* # Back to top button */
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  background: #149ddd;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background: #2eafec;
+  transition: background 0.2s ease-in-out;
+}
+/* ---------------- */
+
